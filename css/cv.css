@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.liste{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.liste p{
+    text-indent: 20px;
+}
+.center {
+    text-align: center;
+    line-height: 3;
+}
+.center h2{
+    color: royalblue;
+}
